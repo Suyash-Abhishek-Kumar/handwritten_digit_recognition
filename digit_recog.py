@@ -46,6 +46,8 @@ def mnist_style_preprocess(img):
     upper_left = ((28 - pil_img.width) // 2, (28 - pil_img.height) // 2)
     new_img.paste(pil_img, upper_left)
     return new_img
+
+
 def predict_digit(img):
     try:
         # Handle dict input (Gradio EditorValue)
