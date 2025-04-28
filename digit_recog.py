@@ -1,9 +1,9 @@
-import torch
-import gradio as gr
-import torch.nn as nn
-import numpy as np
-from PIL import Image, ImageOps
-from torchvision import transforms
+import torch #type:ignore 
+import gradio as gr #type:ignore
+import torch.nn as nn #type:ignore
+import numpy as np #type:ignore
+from PIL import Image, ImageOps #type:ignore
+from torchvision import transforms #type:ignore
 
 class SimpleCNN(nn.Module):
     def __init__(self):
